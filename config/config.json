@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "commerce",
-    "host": "127.0.0.1",
+    "username": "sql7759397",
+    "password": " xxu1gHmFCc",
+    "database": "sql7759397",
+    "host": "sql7.freesqldatabase.com",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "sql7759397",
+    "password": "xxu1gHmFCc",
+    "database": "sql7759397",
+    "host": "sql7.freesqldatabase.com",
     "dialect": "mysql"
   }
 }
