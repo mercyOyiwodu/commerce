@@ -12,6 +12,7 @@ const server = async () => {
         console.log('Connection to database has been established successfully.');
     } catch (error) {
         console.error('Unable to connect to the database:', error.message);
+ 
     }
 }
 
