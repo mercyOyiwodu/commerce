@@ -6,16 +6,6 @@ const port= 1717;
 
 const app=express();
 app.use(express.json());
-const server = async () => {
-    try {
-        await sequelize.authenticate();
-        console.log('Connection to database has been established successfully.');
-    } catch (error) {
-        console.error('Unable to connect to the    database:', error.message);
-    }
-}
-
-server();
 
 app.use(router)
 
